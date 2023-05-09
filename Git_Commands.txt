@@ -1,0 +1,64 @@
+git init . ----> to initialize the git
+
+git status----> To view the file status whether it is staged or committed
+
+git add . ----> to add all the files under the directory to staging area
+
+git rm --cached <filename> ----> to untrack the file from staging area
+
+git restore 
+
+git commit -m "message"-----> to commit the changes to the local repository
+
+git log ------> to view the logs(commits, who done that)
+
+git reset --hard <commit id>  ----> will move the head position to mentioned Id and also delete the previous data it is not recommended
+
+git reset --soft <commit id>  ---> This will just change the head position to the mentioned commit id it will not delete the previous commit data
+	no need to give --soft by default it will do soft reset only when nothing was passed
+
+git revert <commit id> ---> to delete the particular commit's data but not the commit id
+
+git revert <commit id> -- no-commit ---> without commit it will delete the data then we need to commit then only deletion will take changes
+
+remote repository commands
+
+git clone <repositoryname with url> ---> to clone the remote repository
+
+git push origin master ---> pushing the code from origin to master
+
+git pull -r ---> to pull the changes that has been already in the remote repository into the local
+
+git remote -v ---> it will show the remote repository which has been pointed to this directory
+
+git remote set-url origin <repository url> ---> it will set the remote repository url for both push/pull
+
+git remote set-url --push origin <repository url> ---> it will set the remote repository url for push only
+
+git remote update ---> To update the local repository with remote changes
+
+git branch -r-----> to view all remote branches
+
+git branch -a-----> to view all the branches
+
+git branch -----> to view which branch
+
+git branch <branch name>-----> to create the new branch
+
+git checkout <branch name>----> to move to that branch
+
+git checkout -b <branch name> ---> to create and switch to that branch
+
+git push --set-upstream origin <branch name> ---> to push the branch from local to the remote
+
+git merge <from branch name> <to branch name>---> to merge the one branch changes to the other while doing we have to be in the to branch
+
+git branch -d <branch name> ---> to delete the branch
+
+
+
+
+
+
+
+

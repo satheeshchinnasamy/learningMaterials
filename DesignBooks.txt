@@ -1,0 +1,9 @@
+1.Designing Data-Intensive Applications-Martin Kleppmann
+2.System Design Interview- Alex Xu
+3.Solutions Architect's Handbook
+4.Fundamentals of Software Architecture- Mark Richards & Neal Ford
+5.Operating systems Three Easy pieces- Remzi H. Arpaci Dusseau
+
+Dzone
+Highscalability
+Comapny's blog
